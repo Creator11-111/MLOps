@@ -1,0 +1,6 @@
+outs:
+- md5: a25bea736e30d166cdddb491f175f624
+  size: 60008
+  isexec: true
+  hash: md5
+  path: train-labels-idx1-ubyte

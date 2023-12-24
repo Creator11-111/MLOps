@@ -1,0 +1,6 @@
+outs:
+- md5: 6bbc9ace898e44ae57da46a324031adb
+  size: 47040016
+  isexec: true
+  hash: md5
+  path: train-images-idx3-ubyte
