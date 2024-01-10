@@ -1,0 +1,38 @@
+﻿# MLOps Homework’s. (MNIST classification)
+
+This repository is the simple playground for checking MLOps techniques based on MIPT course. PyTorch Lightning was chosen as the ML backend for experiments. Hydra for configuring experiments and fire for CLI Interface. 
+
+
+## Steps to reproduce results 
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Creator11-111/MLOps.git
+```
+
+2. Handle dependencies using poetry:
+
+```bash
+poetry install
+```
+
+3. Setup dvc 
+
+```bash
+poetry run dvc pull
+```
+
+4. You can run training process using the CLI interfaces with Fire in the following way 
+
+```bash
+poetry run python commands.py train
+```
+
+Or inference via
+
+```bash
+poetry run python commands.py infer
+```
+
+If you have not started MLFLOW server or have not specified it while choosing it for logging please start of specify correspondingly 
